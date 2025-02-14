@@ -9,7 +9,7 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <!-- Note C# dependency `GovUk.Frontend.AspNetCore` currently only supports node dependency `govuk-frontend` to v4.7.0 preventing upgrade to v5 -->
-    <PackageReference Include="GovUk.Frontend.AspNetCore" Version="1.5.0" />
+    <PackageReference Include="GovUk.Frontend.AspNetCore" Version="2.0.1" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.13" />
