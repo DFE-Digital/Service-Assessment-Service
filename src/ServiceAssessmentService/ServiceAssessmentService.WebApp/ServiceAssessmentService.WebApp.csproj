@@ -11,13 +11,13 @@
     <!-- Note C# dependency `GovUk.Frontend.AspNetCore` currently only supports node dependency `govuk-frontend` to v4.7.0 preventing upgrade to v5 -->
     <PackageReference Include="GovUk.Frontend.AspNetCore" Version="1.5.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.13" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.13" />
-    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="8.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="9.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="9.0.2" />
     <PackageReference Include="Microsoft.Identity.Web" Version="2.21.1" />
     <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="2.21.1" />
     <PackageReference Include="Microsoft.Identity.Web.UI" Version="2.21.1" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ServiceAssessmentService.Application\ServiceAssessmentService.Application.csproj" />
